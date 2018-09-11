@@ -1,0 +1,54 @@
+unit Controller.Principal;
+
+interface
+
+uses
+  System.SysUtils;
+type
+    tEvMensagem = procedure(Mensagem : string) of object;
+    tEvProgresso = procedure(Posicao : Integer) of object;
+type
+    tController = class
+      private
+        FevMsg: tEvMensagem;
+        FevProgresso: tEvProgresso;
+        FPosicao: Integer;
+    procedure setMsg(const Value: String);
+    procedure setPosicao(const Value: Integer);
+      public
+        property evMsg : tEvMensagem read FevMsg write FevMsg;
+        property evProgresso : tEvProgresso read FevProgresso write FevProgresso;
+        property Msg : String read FevMsg write setMsg;
+        property Posicao : Integer read FPosicao write setPosicao;
+        procedure AcionarEventos;
+    end;
+
+
+
+implementation
+
+{ tController }
+
+procedure tController.AcionarEventos;
+var
+  i : Integer;
+begin
+  for I := 0 to 100 do
+  begin
+    Msg := 'Add via orientacao a eventos ' + IntToStr(i);
+    Posicao := i;
+  end;
+
+end;
+
+procedure tController.setMsg(const Value: String);
+begin
+  FevMsg := Value;
+end;
+
+procedure tController.setPosicao(const Value: Integer);
+begin
+  FPosicao := Value;
+end;
+
+end.

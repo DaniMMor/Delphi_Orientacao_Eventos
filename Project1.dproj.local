@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/17 22:16:57.000.789,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 15:49:30.000.321,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/10 21:46:53.003,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/10 21:47:28.093,C:\Users\w7\Documents\GitHub\Delphi_Orientacao_Eventos\View.Principal.dfm=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/09/10 21:47:28.093,C:\Users\w7\Documents\GitHub\Delphi_Orientacao_Eventos\View.Principal.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/10 21:47:29.698,C:\Users\w7\Documents\GitHub\Delphi_Orientacao_Eventos\Project1.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/09/10 21:47:41.041,=C:\Users\w7\Documents\GitHub\Delphi_Orientacao_Eventos\Unit1.pas</Transaction>
+    <Transaction>2018/09/10 21:47:54.616,C:\Users\w7\Documents\GitHub\Delphi_Orientacao_Eventos\Controller.Principal.pas=C:\Users\w7\Documents\GitHub\Delphi_Orientacao_Eventos\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
