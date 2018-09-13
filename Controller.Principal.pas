@@ -34,7 +34,7 @@ var
 begin
   for I := 0 to 100 do
   begin
-    Msg := 'Adicionando via orientação a eventos' + IntToStr(I);
+    Msg := 'Adicionando via orientação a eventos ' + IntToStr(I);
     Posicao := I;
   end;
 
